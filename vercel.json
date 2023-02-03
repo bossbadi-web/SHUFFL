@@ -17,6 +17,7 @@
         "cache-control": "public, max-age=31536000, immutable",
         "content-type": "text/plain"
       },
+      "dest": "/SHUFFL$1",
       "continue": true
     }
   ]
