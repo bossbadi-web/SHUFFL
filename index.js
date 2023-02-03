@@ -12,7 +12,6 @@ app.use(function (req, res, next) {
   next();
 });
 
-
 var options = {
   dotfiles: 'ignore',
   etag: false,
