@@ -12,7 +12,15 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use(express.static("public"));
+var options = {
+  dotfiles: 'ignore',
+  etag: false,
+  extensions: ['html','css','js', 'png', 'pck', 'wasm'],
+  index: ['index.html'],
+  maxAge: '1m',
+  redirect: false
+}
+app.use(express.static("public", options));
 
 // this starts the server
 server.listen(port, function () {
