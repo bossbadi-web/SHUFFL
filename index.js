@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const server = require("http").createServer(app);
 const port = process.env.PORT || 80;
+const path = require('path');
 
 // this adds the required headers to the response
 app.use(function (req, res, next) {
