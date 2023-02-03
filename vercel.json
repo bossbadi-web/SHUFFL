@@ -7,10 +7,6 @@
   ],
   "routes": [
     {
-      "src": "/SHUFFL(.*)",
-      "dest": "/public/SHUFFL$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "/index.js"
     }
