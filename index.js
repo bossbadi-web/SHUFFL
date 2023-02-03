@@ -25,5 +25,10 @@ app.get("/", (req, res) => {
   res.sendFile("index.html", { root: path.join(__dirname, "public") });
 });
 
+// every other route is static files in public folder
+app.get("*", (req, res) => {
+  res.sendFile("public" + req.path, { root: __dirname });
+});
+
 // index.js
 module.exports = app;
