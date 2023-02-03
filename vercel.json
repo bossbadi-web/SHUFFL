@@ -7,12 +7,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/index.js"
+      "src": "/SHUFFL(.*)",
+      "dest": "/public/SHUFFL$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/public/$1"
+      "dest": "/index.js"
     }
   ]
 }
