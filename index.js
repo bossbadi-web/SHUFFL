@@ -13,7 +13,7 @@ app.use(function (req, res, next) {
 });
 
 // this hosts all the files in the 'public' folder (you should put all the files in your original HTML, CSS, and JS Repl in a folder named "public", you can change the name of the folder hosted by changing the name below)
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // this starts the server
 server.listen(port, function () {
@@ -23,11 +23,6 @@ server.listen(port, function () {
 //index.js
 app.get("/", (req, res) => {
   res.sendFile("index.html", { root: path.join(__dirname, "public") });
-});
-
-// every other route is static files in public folder
-app.get("*", (req, res) => {
-  res.sendFile("public" + req.path, { root: __dirname });
 });
 
 // index.js
