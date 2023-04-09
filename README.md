@@ -4,7 +4,8 @@ Redefine your shuffleboard experience with our reimagined take on the classic ga
 
 ## About
 
-This project was a submission for the 2023 Region 3 Technology Student Association Conference in Pennsylvania.
+1. This project was a submission for the 2023 PA TSA Regional Conference (Region 3).
+1. This project was a submission for the 2023 PA TSA State Conference.
 
 ## Reporting Issues
 
@@ -13,9 +14,3 @@ While itch.io is preferred, you can also report issues on GitHub. Please be as d
 - [itch.io](https://itch.io/t/2643240/bug-reports#post-7276046)
 - [GitHub issues](https://github.com/bossbadi-web/SHUFFL/issues)
 - [GitHub discussions](https://github.com/bossbadi-web/SHUFFL/discussions/categories/bugs)
-
-## Maintainers
-
-- Lead developer: [ChristopherSun](https://github.com/NotChristopherSun)
-- Developer: [Andy Tang](https://github.com/bossbadi)
-- Developer: [@apps-adil](https://github.com/apps-adil)
